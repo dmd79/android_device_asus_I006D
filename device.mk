@@ -142,6 +142,12 @@ PRODUCT_PACKAGES += \
     libtinyxml2 \
     vendor.lineage.livedisplay@2.0-service-sdm
 
+$(call inherit-product, hardware/qcom-caf/sm8350/display/config/display-board.mk)
+$(call inherit-product, hardware/qcom-caf/sm8350/display/config/display-product.mk)
+$(call inherit-product, vendor/qcom/opensource/display/config/display-product-vendor.mk)
+$(call inherit-product, vendor/qcom/opensource/commonsys/display/config/display-product-commonsys.mk)
+$(call inherit-product, vendor/qcom/opensource/commonsys-intf/display/config/display-interfaces-product.mk)
+
 PRODUCT_PACKAGES += \
     libtinyalsa
 
@@ -212,6 +218,8 @@ PRODUCT_PACKAGES += \
     libavservices_minijail_vendor \
     libstagefright_softomx.vendor \
     libstagefrighthw
+
+$(call inherit-product, hardware/qcom-caf/sm8350/media/product.mk)
 
 # Net
 PRODUCT_PACKAGES += \
@@ -348,6 +356,3 @@ PRODUCT_PACKAGES += \
 
 #PRODUCT_BOOT_JARS += \
     WfdCommon
-
-$(call inherit-product, hardware/qcom-caf/sm8350/media/product.mk)
-$(call inherit-product, vendor/qcom/opensource/commonsys-intf/display/config/display-product-system.mk)
