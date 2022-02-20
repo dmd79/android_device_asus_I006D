@@ -672,4 +672,8 @@
 
     <!-- Slow brightness animation ramp rate in brightness units per second -->
     <integer translatable="false" name="config_brightness_ramp_rate_slow">200</integer>
+
+    <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
+    <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
+
 </resources>
