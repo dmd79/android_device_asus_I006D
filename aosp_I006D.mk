@@ -33,11 +33,11 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/aosp/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/asus/zenfone8/device.mk)
+$(call inherit-product, device/asus/I006D/device.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_DEVICE := zenfone8
-PRODUCT_NAME := aosp_zenfone8
+PRODUCT_DEVICE := I006D
+PRODUCT_NAME := aosp_I006D
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_I006D
 PRODUCT_MANUFACTURER := asus

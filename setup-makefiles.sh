@@ -20,7 +20,7 @@
 set -e
 
 # Required!
-DEVICE=zenfone8
+DEVICE=I006D
 VENDOR=asus
 
 # Load extract_utils and do some sanity checks
@@ -40,7 +40,7 @@ fi
 setup_vendor "$DEVICE" "$VENDOR" "$ANDROID_ROOT" true
 
 # Copyright headers and guards
-write_headers "zenfone8"
+write_headers "I006D"
 
 # The standard blobs
     # Reinitialize the helper for device

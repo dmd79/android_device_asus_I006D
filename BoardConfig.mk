@@ -18,7 +18,7 @@
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps).
 #
-DEVICE_PATH := device/asus/zenfone8
+DEVICE_PATH := device/asus/I006D
 
 BOARD_VENDOR := asus
 

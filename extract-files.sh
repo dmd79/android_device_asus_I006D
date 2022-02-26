@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=zenfone8
+DEVICE=I006D
 VENDOR=asus
 
 # Load extract_utils and do some sanity checks

@@ -19,7 +19,7 @@
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps).
 #
-$(call inherit-product, vendor/asus/zenfone8/zenfone8-vendor.mk)
+$(call inherit-product, vendor/asus/I006D/I006D-vendor.mk)
 
 # fusefs / disable sdcardfs usage
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
@@ -244,11 +244,11 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,device/asus/zenfone8/prebuilt/product,product) \
-    $(call find-copy-subdir-files,*,device/asus/zenfone8/prebuilt/root,recovery/root) \
-    $(call find-copy-subdir-files,*,device/asus/zenfone8/prebuilt/system,system) \
-    $(call find-copy-subdir-files,*,device/asus/zenfone8/prebuilt/system_ext,system_ext) \
-    $(call find-copy-subdir-files,*,device/asus/zenfone8/prebuilt/vendor,vendor)
+    $(call find-copy-subdir-files,*,device/asus/I006D/prebuilt/product,product) \
+    $(call find-copy-subdir-files,*,device/asus/I006D/prebuilt/root,recovery/root) \
+    $(call find-copy-subdir-files,*,device/asus/I006D/prebuilt/system,system) \
+    $(call find-copy-subdir-files,*,device/asus/I006D/prebuilt/system_ext,system_ext) \
+    $(call find-copy-subdir-files,*,device/asus/I006D/prebuilt/vendor,vendor)
 
 # Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
