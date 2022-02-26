@@ -142,7 +142,6 @@ vendor/lib64/vendor.pixelworks.hardware.feature@1.0.so
 # Thermal
 vendor/bin/thermal-engine
 vendor/etc/init/init_thermal-engine.rc
-vendor/etc/thermal-engine.conf
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
 
