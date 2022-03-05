@@ -682,4 +682,7 @@
     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
     <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
 
+    <!-- NightLight FOD -->
+    <bool name="disable_fod_night_light">true</bool>
+
 </resources>
