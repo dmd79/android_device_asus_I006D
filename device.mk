@@ -39,6 +39,7 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlay \
     FrameworksResVendor \
     SystemUIOverlay \
+    SettingsOverlay \
     TetheringOverlay \
     WifiOverlay
 
