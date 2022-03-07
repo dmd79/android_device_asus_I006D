@@ -36,7 +36,7 @@ public class AsusParts extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     public static final String KEY_GLOVE_SWITCH = "glove";
-    public static final String GLOVE_PATH = "/proc/driver/glove";
+    public static final String GLOVE_PATH = "/sys/devices/platform/soc/990000.i2c/i2c-1/1-0038/fts_glove_mode";
 
     public static final String KEY_SWIPEUP_SWITCH = "swipeup";
     public static final String SWIPEUP_PATH = "/proc/driver/swipeup";
