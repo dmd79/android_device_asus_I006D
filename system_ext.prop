@@ -6,6 +6,9 @@ telephony.active_modems.max_count=2
 vendor.camera.aux.packagelist=org.omnirom.snap,com.googlecamera.wichaya,com.asus.camera
 persist.vendor.camera.privapp.list=com.asus.camera
 
+# Display
+debug.sf.enable_hwc_vds=1
+
 # Media
 vendor.mm.enable.qcom_parser=16777215
 
