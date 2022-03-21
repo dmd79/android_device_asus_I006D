@@ -359,9 +359,6 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
-# Wifi Display
+# WFD
 PRODUCT_PACKAGES += \
-    libnl
-
-#PRODUCT_BOOT_JARS += \
-    WfdCommon
+    libwfdaac_vendor

@@ -67,6 +67,10 @@ function blob_fixup() {
         sed -i 's|product|system_ext|g' "${2}"
         sed -i 's|xml version="2.0"|xml version="1.0"|g' "${2}"
         ;;
+    # Remove dependency on android.hidl.base@1.0 for WFD native library.
+    system_ext/lib/libwfdnative.so | system_ext/lib64/libwfdnative.so )
+        "${PATCHELF}" --remove-needed "android.hidl.base@1.0.so" "${2}"
+        ;;
     esac
 }
 
