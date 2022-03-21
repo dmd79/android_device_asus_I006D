@@ -1,3 +1,40 @@
+# Display [61.1.A.2.211 (LA.UM.9.14.r1-18300.05-LAHAINA.QSSI12.0)]
+vendor/bin/hw/vendor.display.color@1.0-service|347fda7fe824e405829e1772739e999937421a58
+vendor/bin/ppd|4fcb818e39c813570fdbfaa9726274986e190e04
+vendor/bin/qdcmss|2dd2d71247c85a1bb6b3168d53cd844cb387f75c
+vendor/etc/display/DPU660.xml|b26dd73e361546d89bf3d7082a471703dc6ac2cb
+vendor/etc/display/DPU670.xml|e5131a60ceff29ca5eb561eec7eddadef1d0486f
+vendor/etc/display/DPU720.xml|4e54e8712d65773eb87867bf64a4cb98ea9bb8c3
+vendor/etc/display/DPU7__.xml|c056f3cb9fa123ca3de5b2a9775c184dddf25b9d
+vendor/etc/display/advanced_sf_offsets.xml|e145a0c0f975f6d924fbe7f18f531ae044ec3bef
+vendor/etc/init/qdcmss.rc|53d78d686678c4f923a9ec4ace7d4d3575b13788
+vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/lib64/libdisp-aba.so|380ce9bec091ea522ee18bc8251b5b7ebe7c457a
+vendor/lib64/libdisplayqos.so|aa222f4c1a2d2fb60944c44f8a82621d6bc75184
+vendor/lib64/libdisplayskuutils.so|5afcd261783ca109c9d63e8d08c879b76fb4efd6
+vendor/lib64/libdpps.so|9172a125e1fbfcf21c074641f174c2fd0dd2fd39
+vendor/lib64/libhdr_tm.so|12b190b34cc98d077c4504e93243c19d9199b0f2
+vendor/lib64/libmm-hdcpmgr.so|1d319df7c3f784cac6edf48aad3f379f90c2c6e5
+vendor/lib64/libqdcm-mode-parser.so|207143ab4dda0886bde2a0333d7a1bcd7af6f8e1
+vendor/lib64/libqrtrclient.so|51c55fea28fa475ae9b2c64592f32802e6ba6c25
+vendor/lib64/libqseed3.so|d62c37baf259250cadfcff8734e82054ed87bb96
+vendor/lib64/librcmask.so|140550a78090ddfca790c1c3331f63da128be7d5
+vendor/lib64/libsdm-color.so|aeb07689c1bfc885ef9c846c0148e6f1e3f7f0ac
+vendor/lib64/libsdm-colormgr-algo.so|5416a3b9b0735099c9b86f451f41386711787ea4
+vendor/lib64/libsdm-diag.so|c539c4e4b435296611eb56df182dfcc44937c5df
+vendor/lib64/libsdm-disp-vndapis.so|dc3ff8c971bbcb0d1b9e5079324d1d1d05a1fd39
+vendor/lib64/libsdmextension.so|bca4067c7cd7b184279ed5fef9cc6b20b857440c
+vendor/lib64/libsnapdragoncolor-manager.so|e7f55a1ba843bb570afa6bbf16bb61dc01ec74ea
+vendor/lib64/libsnapdragoncolor-qdcm.so|673c41753603bacb197674df567723dfd928384e
+vendor/lib64/libtinyxml2_1.so|11ceb3f1e7650c41621d47e5ec5567c8f466086e
+vendor/lib64/vendor.display.color@1.0.so|76e84677fefbe97a0c9d33646fca2834e77a3b6f
+vendor/lib64/vendor.display.color@1.1.so|3aa79bbf7592472d87c29f91a106141eff8a9a74
+vendor/lib64/vendor.display.color@1.2.so|8b5ed3c2b39aa38f6194f2ed3872166f88b8ad98
+vendor/lib64/vendor.display.color@1.3.so|1ff2c50e6b8c0bc95f3476aa5b066024e0fc9261
+vendor/lib64/vendor.display.color@1.4.so|6e4cffe7b1a287dee9c4fb9b8e08ddac50b916b4
+vendor/lib64/vendor.display.color@1.5.so|0474d3d9123fd38538a3cd1e3c267608d71b7126
+vendor/lib64/vendor.display.postproc@1.0.so|f82e704e275c25ef27ff37cdbbfb2360e53c2611
+
 # Vendor
 -vendor/app/CACertService/CACertService.apk
 -vendor/app/CneApp/CneApp.apk
@@ -144,7 +181,6 @@ vendor/bin/hw/android.hardware.usb@1.2-service-qti
 vendor/bin/hw/capabilityconfigstoretest
 vendor/bin/hw/qconfigservice
 vendor/bin/hw/qcrilNrd
-vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.ozoaudio.media.c2@1.0-service
 vendor/bin/hw/vendor.pixelworks.hardware.display.iris-service
 vendor/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service
@@ -222,7 +258,6 @@ vendor/bin/pmodechange.sh
 vendor/bin/port-bridge
 vendor/bin/power_off_alarm
 vendor/bin/poweropt-service
-vendor/bin/ppd
 vendor/bin/procrankdump.sh
 vendor/bin/proximity_calibration_data
 vendor/bin/proximity_calibration_data_ratio
@@ -241,7 +276,6 @@ vendor/bin/qcc-trd
 vendor/bin/qcfwver
 vendor/bin/qcom-system-daemon
 vendor/bin/qconfigfunctest
-vendor/bin/qdcmss
 vendor/bin/qdss_qmi_helper
 vendor/bin/qmipriod
 vendor/bin/qrtr-cfg
@@ -382,11 +416,6 @@ vendor/etc/default-permissions/com.qualcomm.qti.cne.xml
 vendor/etc/default_volume_tables.xml
 vendor/etc/dirac/interfacedb
 vendor/etc/diracvdd.bin
-vendor/etc/display/DPU660.xml
-vendor/etc/display/DPU670.xml
-vendor/etc/display/DPU720.xml
-vendor/etc/display/DPU7__.xml
-vendor/etc/display/advanced_sf_offsets.xml
 vendor/etc/excluded-input-devices.xml
 vendor/etc/fallback_fonts.xml
 vendor/etc/felica/common.cfg
@@ -450,7 +479,6 @@ vendor/etc/init/port-bridge.rc
 vendor/etc/init/poweropt-service.rc
 vendor/etc/init/qconfig.rc
 vendor/etc/init/qcrilNrd.rc
-vendor/etc/init/qdcmss.rc
 vendor/etc/init/qmipriod.debug.rc
 vendor/etc/init/qmipriod.rc
 vendor/etc/init/qseecomd.rc
@@ -458,7 +486,6 @@ vendor/etc/init/qttestservice.rc
 vendor/etc/init/shsusrd.rc
 vendor/etc/init/slad.rc
 vendor/etc/init/ssgtzd.rc
-vendor/etc/init/vendor.display.color@1.0-service.rc
 vendor/etc/init/vendor.ozoaudio.media.c2@1.0-service.rc
 vendor/etc/init/vendor.pixelworks.hardware.display.iris-service.rc
 vendor/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc
@@ -1772,11 +1799,7 @@ vendor/lib/libdataitems.so
 vendor/lib/libdiag.so
 vendor/lib/libdiagjni.so
 vendor/lib/libdiracgefwrapper.so
-vendor/lib/libdisp-aba.so
-vendor/lib/libdisplayqos.so
-vendor/lib/libdisplayskuutils.so
 vendor/lib/libdpmqmihal.so
-vendor/lib/libdpps.so
 vendor/lib/libdrc.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
@@ -1805,7 +1828,6 @@ vendor/lib/libhdcpsrm.so
 vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libhdr_stub.so
-vendor/lib/libhdr_tm.so
 vendor/lib/libhdrdynamic.so
 vendor/lib/libhdrdynamicootf.so
 vendor/lib/libhfp.so
@@ -1842,7 +1864,6 @@ vendor/lib/libminkdescriptor.so
 vendor/lib/libminksocket.so
 vendor/lib/libmiracast.so
 vendor/lib/libmm-color-convertor.so
-vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libmm-omxcore.so
 vendor/lib/libmmcamera_bestats.so
 vendor/lib/libmmcamera_cac3.so
@@ -1916,7 +1937,6 @@ vendor/lib/libqcrilNrLogger.so
 vendor/lib/libqcrilNrQtiBus.so
 vendor/lib/libqcrilNrQtiMutex.so
 vendor/lib/libqcrildatactl.so
-vendor/lib/libqdcm-mode-parser.so
 vendor/lib/libqdi.so
 vendor/lib/libqdp.so
 vendor/lib/libqdutils.so
@@ -1934,9 +1954,7 @@ vendor/lib/libqmi_encdec.so
 vendor/lib/libqmi_legacy.so
 vendor/lib/libqmiservices.so
 vendor/lib/libqrtr.so
-vendor/lib/libqrtrclient.so
 vendor/lib/libqsap_sdk.so
-vendor/lib/libqseed3.so
 vendor/lib/libqsocket.so
 vendor/lib/libqtbase.so
 vendor/lib/libqti-iopd-client-vendor.so
@@ -1956,7 +1974,6 @@ vendor/lib/libqtnodes.so
 vendor/lib/libqttestclient.so
 vendor/lib/libqttestservice.so
 vendor/lib/librcc.so
-vendor/lib/librcmask.so
 vendor/lib/librecovery_updater.so
 vendor/lib/librecovery_updater_msm.so
 vendor/lib/libreference-ril.so
@@ -1977,11 +1994,6 @@ vendor/lib/libscveObjectSegmentation.so
 vendor/lib/libscveObjectSegmentation_stub.so
 vendor/lib/libscveObjectTracker.so
 vendor/lib/libscveObjectTracker_stub.so
-vendor/lib/libsdm-color.so
-vendor/lib/libsdm-colormgr-algo.so
-vendor/lib/libsdm-diag.so
-vendor/lib/libsdm-disp-vndapis.so
-vendor/lib/libsdmextension.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsecureui_svcsock.so
 vendor/lib/libsensorcal.so
@@ -1992,9 +2004,7 @@ vendor/lib/libskewknob.so
 vendor/lib/libslimclient.so
 vendor/lib/libsmemlog.so
 vendor/lib/libsmwrapper.so
-vendor/lib/libsnapdragoncolor-manager.so
 vendor/lib/libsnapdragoncolor-pxlw.so
-vendor/lib/libsnapdragoncolor-qdcm.so
 vendor/lib/libsndmonitor.so
 vendor/lib/libsns_device_mode_stub.so
 vendor/lib/libsns_fastRPC_util.so
@@ -2025,7 +2035,6 @@ vendor/lib/libthreadutils.so
 vendor/lib/libtime_genoff.so
 vendor/lib/libtinycompress.so
 vendor/lib/libtinyxml.so
-vendor/lib/libtinyxml2_1.so
 vendor/lib/libtrustedapploader.so
 vendor/lib/libtzdrmgenprov.so
 vendor/lib/libvideooptfeature.so
@@ -2152,13 +2161,6 @@ vendor/lib/soundfx/libvisualizer.so
 vendor/lib/soundfx/libvolumelistener.so
 vendor/lib/vendor.asus.bspcam@1.0-impl.so
 vendor/lib/vendor.asus.bspcam@1.0.so
-vendor/lib/vendor.display.color@1.0.so
-vendor/lib/vendor.display.color@1.1.so
-vendor/lib/vendor.display.color@1.2.so
-vendor/lib/vendor.display.color@1.3.so
-vendor/lib/vendor.display.color@1.4.so
-vendor/lib/vendor.display.color@1.5.so
-vendor/lib/vendor.display.postproc@1.0.so
 vendor/lib/vendor.nxp.eventprocessor@1.0.so
 vendor/lib/vendor.nxp.nxpese@1.0.so
 vendor/lib/vendor.nxp.nxpnfc@2.0.so
@@ -2635,11 +2637,7 @@ vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/libdataitems.so
 vendor/lib64/libdiag.so
 vendor/lib64/libdiagjni.so
-vendor/lib64/libdisp-aba.so
-vendor/lib64/libdisplayqos.so
-vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libdpmqmihal.so
-vendor/lib64/libdpps.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libdsi_netctrl.so
@@ -2671,7 +2669,6 @@ vendor/lib64/libhdcpsrm.so
 vendor/lib64/libhdmiedid.so
 vendor/lib64/libhdmipassthru.so
 vendor/lib64/libhdr_stub.so
-vendor/lib64/libhdr_tm.so
 vendor/lib64/libhdrdynamic.so
 vendor/lib64/libhdrdynamicootf.so
 vendor/lib64/libhfp.so
@@ -2716,7 +2713,6 @@ vendor/lib64/libminkdescriptor.so
 vendor/lib64/libminksocket.so
 vendor/lib64/libmiracast.so
 vendor/lib64/libmm-color-convertor.so
-vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libmm-omxcore.so
 vendor/lib64/libmmcamera_bestats.so
 vendor/lib64/libmmcamera_cac3.so
@@ -2793,7 +2789,6 @@ vendor/lib64/libqcrilNrLogger.so
 vendor/lib64/libqcrilNrQtiBus.so
 vendor/lib64/libqcrilNrQtiMutex.so
 vendor/lib64/libqcrildatactl.so
-vendor/lib64/libqdcm-mode-parser.so
 vendor/lib64/libqdi.so
 vendor/lib64/libqdp.so
 vendor/lib64/libqdutils.so
@@ -2812,9 +2807,7 @@ vendor/lib64/libqmi_legacy.so
 vendor/lib64/libqmiextservices.so
 vendor/lib64/libqmiservices.so
 vendor/lib64/libqrtr.so
-vendor/lib64/libqrtrclient.so
 vendor/lib64/libqsap_sdk.so
-vendor/lib64/libqseed3.so
 vendor/lib64/libqsocket.so
 vendor/lib64/libqtbase.so
 vendor/lib64/libqti-iopd-client-vendor.so
@@ -2834,7 +2827,6 @@ vendor/lib64/libqtnodes.so
 vendor/lib64/libqttestclient.so
 vendor/lib64/libqttestservice.so
 vendor/lib64/librcc.so
-vendor/lib64/librcmask.so
 vendor/lib64/librecovery_updater.so
 vendor/lib64/librecovery_updater_msm.so
 vendor/lib64/libreference-ril.so
@@ -2856,11 +2848,6 @@ vendor/lib64/libscveObjectSegmentation.so
 vendor/lib64/libscveObjectSegmentation_stub.so
 vendor/lib64/libscveObjectTracker.so
 vendor/lib64/libscveObjectTracker_stub.so
-vendor/lib64/libsdm-color.so
-vendor/lib64/libsdm-colormgr-algo.so
-vendor/lib64/libsdm-diag.so
-vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmextension.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libsensorcal.so
@@ -2870,9 +2857,7 @@ vendor/lib64/libsi.so
 vendor/lib64/libskewknob.so
 vendor/lib64/libslimclient.so
 vendor/lib64/libsmemlog.so
-vendor/lib64/libsnapdragoncolor-manager.so
 vendor/lib64/libsnapdragoncolor-pxlw.so
-vendor/lib64/libsnapdragoncolor-qdcm.so
 vendor/lib64/libsndmonitor.so
 vendor/lib64/libsns_api.so
 vendor/lib64/libsns_device_mode_stub.so
@@ -2903,7 +2888,6 @@ vendor/lib64/libthreadutils.so
 vendor/lib64/libtime_genoff.so
 vendor/lib64/libtinycompress.so
 vendor/lib64/libtinyxml.so
-vendor/lib64/libtinyxml2_1.so
 vendor/lib64/libtrustedapploader.so
 vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
@@ -2965,13 +2949,6 @@ vendor/lib64/unnhal-acc-gpu.so
 vendor/lib64/unnhal-acc-htp.so
 vendor/lib64/vendor.asus.bspcam@1.0-impl.so
 vendor/lib64/vendor.asus.bspcam@1.0.so
-vendor/lib64/vendor.display.color@1.0.so
-vendor/lib64/vendor.display.color@1.1.so
-vendor/lib64/vendor.display.color@1.2.so
-vendor/lib64/vendor.display.color@1.3.so
-vendor/lib64/vendor.display.color@1.4.so
-vendor/lib64/vendor.display.color@1.5.so
-vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib64/vendor.nxp.eventprocessor@1.0.so
 vendor/lib64/vendor.nxp.nxpese@1.0.so
 vendor/lib64/vendor.nxp.nxpnfc@2.0.so
