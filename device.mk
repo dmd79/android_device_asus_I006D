@@ -140,8 +140,7 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     libion \
-    libtinyxml2 \
-    vendor.lineage.livedisplay@2.0-service-sdm
+    libtinyxml2
 
 $(call inherit-product, hardware/qcom-caf/sm8350/display/config/display-board.mk)
 $(call inherit-product, hardware/qcom-caf/sm8350/display/config/display-product.mk)
