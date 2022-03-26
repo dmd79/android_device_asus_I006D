@@ -1310,15 +1310,6 @@ vendor/firmware/goodixfp64.b05
 vendor/firmware/goodixfp64.b06
 vendor/firmware/goodixfp64.b07
 vendor/firmware/goodixfp64.mdt
-vendor/firmware/goodixfp64_er1.b00
-vendor/firmware/goodixfp64_er1.b01
-vendor/firmware/goodixfp64_er1.b02
-vendor/firmware/goodixfp64_er1.b03
-vendor/firmware/goodixfp64_er1.b04
-vendor/firmware/goodixfp64_er1.b05
-vendor/firmware/goodixfp64_er1.b06
-vendor/firmware/goodixfp64_er1.b07
-vendor/firmware/goodixfp64_er1.mdt
 vendor/firmware/hdcpsrm.b00
 vendor/firmware/hdcpsrm.b01
 vendor/firmware/hdcpsrm.b02
@@ -2454,7 +2445,6 @@ vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/hw/fingerprint.default.so
-vendor/lib64/hw/fingerprint_er1.default.so
 vendor/lib64/hw/lights.qcom.so
 vendor/lib64/hw/local_time.default.so
 vendor/lib64/hw/power.default.so
@@ -2645,7 +2635,6 @@ vendor/lib64/libgcs.so
 vendor/lib64/libgdtap.so
 vendor/lib64/libgeofencing.so
 vendor/lib64/libgf_hal.so
-vendor/lib64/libgf_hal_er1.so
 vendor/lib64/libgnss.so
 vendor/lib64/libgnsspps.so
 vendor/lib64/libgplaf.so
