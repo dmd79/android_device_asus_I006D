@@ -240,6 +240,15 @@ PRODUCT_PACKAGES += \
     SecureElement \
     com.android.nfc_extras
 
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.nfc.ese.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_eSE/android.hardware.nfc.ese.xml \
+    frameworks/native/data/etc/android.hardware.se.omapi.ese.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_eSE/android.hardware.se.omapi.ese.xml
+
+PRODUCT_USES_ESE := false
+
+$(call inherit-product, vendor/nxp/nfc/nfc-vendor-product.mk)
+$(call inherit-product, vendor/nxp/secure_element/se-vendor-product.mk)
+
 # Platform
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
