@@ -338,7 +338,7 @@ PRODUCT_PACKAGES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0.vendor
+    android.hardware.thermal@2.0-service.qti
 
 # TrustedUI
 PRODUCT_PACKAGES += \
