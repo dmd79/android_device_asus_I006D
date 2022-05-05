@@ -52,8 +52,6 @@ write_headers "I006D"
 
     # The standard device blobs
     write_makefiles "$MY_DIR"/../"$DEVICE"/proprietary-files.txt true
-    write_makefiles "$MY_DIR"/../"$DEVICE"/proprietary-files-product.txt true
-    write_makefiles "$MY_DIR"/../"$DEVICE"/proprietary-files-vendor.txt true
 
     # We are done!
     write_footers
