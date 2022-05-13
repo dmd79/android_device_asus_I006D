@@ -41,12 +41,8 @@ public class AsusParts extends PreferenceFragment implements
     public static final String KEY_SWIPEUP_SWITCH = "swipeup";
     public static final String SWIPEUP_PATH = "/proc/driver/swipeup";
 
-    public static final String KEY_CHARGER_SWITCH = "charger";
-    public static final String CHARGER_PATH = "/sys/class/asuslib/chg_disable_jeita";
-
     private TwoStatePreference mGloveSwitch;
     private TwoStatePreference mSwipeUpSwitch;
-    private TwoStatePreference mChargerSwitch;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -69,10 +65,6 @@ public class AsusParts extends PreferenceFragment implements
         mSwipeUpSwitch.setChecked(Settings.System.getInt(getContext().getContentResolver(),
         KEY_SWIPEUP_SWITCH, 1) != 0);
 
-        mChargerSwitch = (TwoStatePreference) findPreference(KEY_CHARGER_SWITCH);
-        mChargerSwitch.setChecked(Settings.System.getInt(getContext().getContentResolver(),
-        KEY_CHARGER_SWITCH, 1) != 0);
-
     }
 
     @Override
@@ -85,11 +77,6 @@ public class AsusParts extends PreferenceFragment implements
         if (preference == mSwipeUpSwitch) {
             Settings.System.putInt(getContext().getContentResolver(), KEY_SWIPEUP_SWITCH, mSwipeUpSwitch.isChecked() ? 1 : 0);
             FileUtils.setValue(SWIPEUP_PATH, mSwipeUpSwitch.isChecked() ? "1" : "0");
-            return true;
-        }
-        if (preference == mChargerSwitch) {
-            Settings.System.putInt(getContext().getContentResolver(), KEY_CHARGER_SWITCH, mChargerSwitch.isChecked() ? 1 : 0);
-            FileUtils.setValue(CHARGER_PATH, mChargerSwitch.isChecked() ? "1" : "0");
             return true;
         }
         return super.onPreferenceTreeClick(preference);
