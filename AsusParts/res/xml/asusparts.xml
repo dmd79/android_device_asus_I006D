@@ -32,17 +32,6 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/charger_control">
-
-        <SwitchPreference
-            android:key="charger"
-            android:defaultValue="0"
-            android:icon="@drawable/ic_charger"
-            android:title="@string/charger_title"
-            android:summary="@string/charger_summary" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:title="@string/glove_control">
 
         <SwitchPreference
