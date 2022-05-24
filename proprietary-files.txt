@@ -1974,6 +1974,7 @@ vendor/firmware/aw8697_haptic.bin
 
 # WFD
 -system/framework/WfdCommon.jar
+system/lib64/libnl.so
 system_ext/bin/wfdservice64
 system_ext/etc/init/wfdservice.rc
 system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml
