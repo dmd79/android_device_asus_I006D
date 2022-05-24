@@ -769,6 +769,7 @@ vendor/bin/init.qti.chg_policy.sh
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 vendor/etc/charger_fstab.qti
 vendor/etc/charger_fw_fstab.qti
+vendor/lib64/hw/android.hardware.health@2.0-impl-2.1.so|bd06cb22bfcf425d8be97310186beb422fd1c6b6
 
 # Config Store
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
