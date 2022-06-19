@@ -1725,12 +1725,21 @@ vendor/lib64/libnative-api.so
 vendor/lib64/libqcbor.so
 
 # Sensors
+vendor/bin/hw/android.hardware.sensors@2.0-service.multihal
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
 vendor/bin/sscrpcd
+vendor/etc/init/android.hardware.sensors@2.0-service-multihal.rc
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
+vendor/etc/permissions/sku_lahaina/android.hardware.sensor.accelerometer.xml
+vendor/etc/permissions/sku_lahaina/android.hardware.sensor.compass.xml
+vendor/etc/permissions/sku_lahaina/android.hardware.sensor.gyroscope.xml
+vendor/etc/permissions/sku_lahaina/android.hardware.sensor.light.xml
+vendor/etc/permissions/sku_lahaina/android.hardware.sensor.proximity.xml
+vendor/etc/permissions/sku_lahaina/android.hardware.sensor.stepcounter.xml
+vendor/etc/permissions/sku_lahaina/android.hardware.sensor.stepdetector.xml
 vendor/etc/sensors/config/af6133e_0.json
 vendor/etc/sensors/config/cedros_default_sensors.json
 vendor/etc/sensors/config/cedros_dynamic_sensors.json
@@ -1788,6 +1797,7 @@ vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/sensors_list.txt
 vendor/etc/sensors/sensors_settings
 vendor/etc/sensors/sns_reg_config
+-vendor/etc/vintf/manifest/android.hardware.sensors@2.0-multihal.xml
 vendor/firmware/slpi.b00
 vendor/firmware/slpi.b01
 vendor/firmware/slpi.b02
@@ -1816,6 +1826,7 @@ vendor/firmware/slpi.b24
 vendor/firmware/slpi.mdt
 vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
+vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsns_api.so
 vendor/lib64/libsns_device_mode_stub.so
