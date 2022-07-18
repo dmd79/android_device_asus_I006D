@@ -32,16 +32,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lmodroid
 
 PRODUCT_PACKAGES += \
-    aptxalsOverlay \
-    FrameworksResOverlay \
-    FrameworksResVendor \
-    SystemUIOverlay \
-    SettingsOverlay \
-    TetheringOverlay \
-    WifiOverlay
+    CarrierConfigResCommon \
+    FrameworksResCommon \
+    FrameworksResTarget \
+    SystemUIResCommon \
+    TelephonyResCommon \
+    WifiResCommon \
+    WifiResTarget \
+    ZenFone8Frameworks \
+    ZenFone8LineageSystemUI \
+    ZenFone8Settings \
+    ZenFone8SettingsProvider \
+    ZenFone8SystemUI \
+    aptxalsOverlay
 
 # A/B
 ENABLE_VIRTUAL_AB := true
@@ -328,7 +335,7 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service \
+    android.hardware.power-service-qti \
     android.hardware.power@1.2.vendor \
     android.hardware.power-V1-ndk_platform.vendor
 
